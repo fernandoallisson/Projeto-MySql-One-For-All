@@ -1,3 +1,5 @@
+USE SpotifyClone;
+
 SELECT
     C.nome_pessoa_usuaria AS pessoa_usuaria,
     COUNT(H.Musicas_id) AS musicas_ouvidas,
